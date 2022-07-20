@@ -13,8 +13,9 @@ body,
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Kodchasan', sans-serif;
   background-color: #f9fbfd;
+  font-weight: bolder;
 }
 
 .wrapper {
@@ -86,6 +87,7 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  font-family: 'Kodchasan', sans-serif;
 }
 
 button[disabled] {
