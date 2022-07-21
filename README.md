@@ -6,7 +6,7 @@ This project allows users to generate passwords between 8 and 126 characters by 
 
 The project involves in JavaScript, which can access the HTML to manipulate the functionality and interaction between users and the page. Some examples of JavaScript used in this project as follows:
 
-* `function`
+* `function ()`
 ```JavaScript
 function writePassword() {
 ```
