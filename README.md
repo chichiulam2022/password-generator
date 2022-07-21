@@ -1,6 +1,6 @@
 # Password Generator 
 
-https://chichiulam2022.github.io/password-generator/
+https://chichiulam2022.github.io/password_generator/
 
 This project allows users to generate passwords between 8 and 126 characters by clicking a button, then input how many characters they want for their password, and choose if numbers, uppercase and lowercase letters, and other symbol symbols such as @, $, %, *, are included.
 
