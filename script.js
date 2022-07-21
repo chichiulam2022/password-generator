@@ -3,10 +3,10 @@ const generateBtn = document.querySelector("#generate");
 
 function writePassword() {
   const passwordText = document.querySelector('#password');
-  const pwLength = window.prompt('Enter how many characters you want for your password. Press 0 or cancel to exit.');
+  let pwLength = window.prompt('Enter how many characters you want for your password. Press 0 or cancel to exit.');
   while (!parseInt(pwLength) || parseInt(pwLength) < 8 || parseInt(pwLength) > 126) {
     if (pwLength === null || parseInt(pwLength) === 0) return;
-    pwLength = parseInt(prompt('Enter a valid number between 8 and 126'));
+    pwLength = window.prompt('Enter a valid number between 8 and 126');
   }
   const hasNumbers = window.confirm('Would you like to include numbers?');
   const hasUppercase = window.confirm('Would you like to include uppercase letters?');
