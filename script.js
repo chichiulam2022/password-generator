@@ -38,8 +38,7 @@ function generatePassword(pwLength, hasNumbers, hasUppercase, hasLowercase, hasS
     newList += symbolsList
   }
   for (let i = 0; i < pwLength; i++) {
-    let newListLength = newList.length;
-    password += newList.charAt(Math.floor(Math.random() * newListLength));
+    password += newList.charAt(Math.floor(Math.random() * newList.length));
   }
   return password;
 }
